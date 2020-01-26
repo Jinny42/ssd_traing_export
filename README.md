@@ -105,7 +105,7 @@ line: 170,184 -> path설정
 
 해당 라인에 적혀있는 path의 tfrecord를 train하므로 우리데이터셋 경로로 바꿔주자.
 
-170, 184: /home/opencv-mds/tf_ssd/tfrecord/ 여기에 ms만 지우면됨
+171, 185: /home/opencv-mds/tf_ssd/tfrecord/ 여기에 ms만 지우면됨
 
 line: 173,187 -> mscoco_label_map.pbtxt 경로를 설정해줘야 한다. 
 
