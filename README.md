@@ -97,11 +97,11 @@ unzip tfrecord.zip
 
 $ vim ~/tf_ssd/tod/train_models/research/object_detection/samples/configs/ssd_inception_v2_coco.config
 
-line: 151, 152 -> 주석(#) 처리
+line: 152, 153 -> 주석(#) 처리
 
 해당 라인은 transfer learning을 하거나 fine_tuning할 때 사용하므로 현재는 사용하지 않는다.
 
-line: 170,184 -> path설정
+line: 171,185 -> path설정
 
 해당 라인에 적혀있는 path의 tfrecord를 train하므로 우리데이터셋 경로로 바꿔주자.
 
