@@ -101,13 +101,13 @@ line: 152, 153 -> 주석(#) 처리
 
 해당 라인은 transfer learning을 하거나 fine_tuning할 때 사용하므로 현재는 사용하지 않는다.
 
-line: 171,185 -> path설정
+line: 171, 185 -> path설정
 
 해당 라인에 적혀있는 path의 tfrecord를 train하므로 우리데이터셋 경로로 바꿔주자.
 
 171, 185: /home/opencv-mds/tf_ssd/tfrecord/ 여기에 ms만 지우면됨
 
-line: 173,187 -> mscoco_label_map.pbtxt 경로를 설정해줘야 한다. 
+line: 173, 187 -> mscoco_label_map.pbtxt 경로를 설정해줘야 한다. 
 
 173, 187: /home/opencv-mds/tf_ssd/tod/train_models/research/object_detection/data/mscoco_label_map.pbtxt
 
