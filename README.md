@@ -107,9 +107,9 @@ line: 170,184 -> path설정
 
 170, 184: /home/opencv-mds/tf_ssd/tfrecord/ 여기에 ms만 지우면됨
 
-line: 172,186 -> mscoco_label_map.pbtxt 경로를 설정해줘야 한다. 
+line: 173,187 -> mscoco_label_map.pbtxt 경로를 설정해줘야 한다. 
 
-172, 186: /home/opencv-mds/tf_ssd/tod/train_models/research/object_detection/data/mscoco_label_map.pbtxt
+173, 187: /home/opencv-mds/tf_ssd/tod/train_models/research/object_detection/data/mscoco_label_map.pbtxt
 
 -------------------------
 * 수정된 config 예 : vBox에 coco_val.record 가 없어서 동일하게 coco_train.record 을 사용함.
